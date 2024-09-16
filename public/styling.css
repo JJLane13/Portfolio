@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: "Nerko One";
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    min-height: 85vh;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(135deg, red, yellow);
+    margin-top: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/*----------------------------------------*/
+/* Header CSS */
+/*----------------------------------------*/
+
+.the-header {
+    height: auto;
+    line-height: auto;
+    padding: 0 20px;
+    background-color: #1d1f1d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-header a {
+    text-decoration: none;
+}
+    
+.webname {
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+      
+.webname a {
+    color: red;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+}
+    
+.menutop {
+    line-height: auto;
+    margin: 0;
+    padding: 0;
+}
+    
+.menutop li {
+    margin: 0 15px;
+}
+
+.menutop li:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+    
+.menutop a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+    
+
+/*----------------------------------------*/
+/* Homepage CSS */
+/*----------------------------------------*/
+.homemessage {
+    margin-top: 5vh;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    padding-top: 5vh;
+    margin-top: 0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box {
+    width: 45%;               
+    padding: 20px;
+    border: 2px solid white;
+    background-color: #333333;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    min-height: 35vh;
+    height: auto;
+    margin-bottom: 5vh;
+    border-radius: 15px;
+}
+
+.aboutbox {
+    height: auto;
+    width: 48%;
+    margin-left: 26%; 
+    padding: 20px;        
+    background-color: #333333;
+    border: 2px solid white;  
+    color: #FFFFFF;        
+    box-sizing: border-box;    
+    text-align: center;  
+    margin-bottom: 5vh; 
+    border-radius: 15px;    
+}
+
+.aboutbox h1 {
+    font-size: 2.5rem;
+}
+
+.box h1 {
+    font-size: 2.5rem;
+}
+
+.aboutwriting {
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.homepagewriting {
+    padding: 10px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.languages_box {
+    text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logos {
+    text-align: center;
+}
+
+
+/*----------------------------------------*/
+/* Project CSS */
+/*----------------------------------------*/
+
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    gap: 1vh;
+    padding-bottom: 3vh;
+}
+
+.projectbox {
+    background-color: #333333;
+    padding: 20px;
+    border: 2px solid white;   
+    color: #FFFFFF;             
+    display: flex;            
+    flex-direction: row;    
+    gap: 10px;   
+    width: 80%;
+    min-height: 35vh;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+.inner-box {
+    flex: 1;                 
+    background-color: #555555;
+    padding: 10px;
+    border: 1px solid white; 
+    text-align: center;   
+    gap: 10px;  
+    border-radius: 15px;
+}
+
+.inner-box img {
+    border-radius: 15px;
+}
+
+.inner-box a{
+    color: black;
+}
+
+.inner-inner-box1 {
+    padding: 10px;
+    flex-direction: column;
+    background-color: grey;
+    border: 1px solid white;
+    margin-bottom: 2%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+.inner-inner-box2 {
+    padding: 10px;
+    flex-direction: column;
+    background-color: grey;
+    border: 1px solid white;
+    height: 40%;
+    border-radius: 15px;
+}
+
+.projectbutton{
+    background-color: gainsboro;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: "Nerko One";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projectbutton:hover {
+    background: linear-gradient(45deg, red, yellow);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.projectheading {
+    font-size: 2rem;
+}
+
+.projectwriting {
+    padding-top: 1vh;
+    font-size: 1.5rem;
+}
+
+
+/*----------------------------------------*/
+/* Footer CSS */
+/*----------------------------------------*/
+footer {
+    background-color: #1d1f1d;
+    height: auto;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+}
+      
+.copyright {
+    padding-top: 1vh;
+    text-align: center;
+    padding-bottom: 1vh;
+    background-color: #555555;
+}
+
+.footerbox {
+    padding: 20px;
+    color: #FFFFFF;   
+    display: flex;           
+    flex-direction: row;   
+    gap: 10px;   
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+}
+
+.footerinner-box {
+    flex: 1;       
+    padding: 10px;
+    text-align: center; 
+    justify-content: center;
+}
+
+.socialhead {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1vh;
+}
+
+
+
+/*----------------------------------------*/
+/* Font size changes */
+/*----------------------------------------*/
+@media (min-width: 1025px) {
+    .menutop a {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*----------------------------------------*/
+/* Media Homepage */
+/*----------------------------------------*/
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .box {
+        margin-bottom: 5vh;
+        width: 60%;
+    }
+
+    .projectcontainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3vh;
+        gap: 1vh;
+        padding-bottom: 3vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .projectbox {
+        background-color: #333333;
+        border: 2px solid white; 
+        color: #FFFFFF;         
+        display: flex;             
+        flex-direction: column;       
+        gap: 10px;   
+        width: 80%;
+        min-height: 35vh;
+        height: auto;
+        margin-bottom: 5vh;
+        margin-right: 20%;
+        margin-left: 20%;
+
+    }
+    
+    .inner-box {
+        flex: 1;                 
+        background-color: #555555;
+        padding: 10px;
+        border: 1px solid white; 
+        text-align: center;   
+        gap: 10px;  
+        height: auto;
+    }
+    
+    .inner-inner-box1 {
+        padding: 10px;
+        flex-direction: column;
+        background-color: grey;
+        border: 1px solid white;
+        margin-bottom: 3%;
+        height: 35%;
+    }
+    
+    .inner-inner-box2 {
+        padding: 10px;
+        flex-direction: column;
+        background-color: grey;
+        border: 1px solid white;
+        height: 35%;
+    }
+}
+
+@media (max-width: 580px) {
+    .box {
+        margin-bottom: 5vh;
+        width: 80%;
+    }
+
+    .aboutbox {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/*----------------------------------------*/
+/* Media For Long Screen */
+/*----------------------------------------*/
+@media (min-height: 1600px) {
+    .container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .box {
+        margin-bottom: 5vh;
+        width: 70%;
+    }
+
+    .box h1{
+        font-size: 10rem;
+    }
+}
